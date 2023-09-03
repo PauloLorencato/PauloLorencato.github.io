@@ -1,0 +1,25 @@
+:root {
+    --borders: rgb(0, 0, 100);
+    --blocks: rgb(0, 0, 100);
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    height: 60px;
+    background-color: var(--blocks);
+}
+
+.nome {
+    color: aliceblue;
+    
+}
+
+img {
+    width: 200px;
+    border-radius: 5% 40% 5% 40%;
+    border: 2px solid var(--borders);
+} 
+
